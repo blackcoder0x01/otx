@@ -1,4 +1,5 @@
 #!/bin/bash
+#clear
 input=$1
 while IFS= read -r line;do
   echo -e "[+] Enumeration ---------> $line"
